@@ -2,7 +2,7 @@
 Toolset to extract and work with your ChatGPT chat history.
 
 ## Contents
-- `extract_chat_export.py` — streaming extractor that pulls `jsonData` and `assetsJson` out of `chat.html` into `data.json` and `assets.json`.
+- `chat_export_to_json.py` — streaming extractor that pulls `jsonData` and `assetsJson` out of `chat.html` into `data.json` and `assets.json`.
 - `chatgpt_export.py` — library and CLI to list conversations, enumerate messages, and search text.
 - `export_test.py` — minimal example of programmatic use.
 
@@ -24,7 +24,7 @@ Inside the ZIP you will find a `chat.html` that contains your full message graph
 Copy `chat.html` into the cloned repository folder, then run:
 
 ```bash
-python extract_chat_export.py chat.html
+python chat_export_to_json.py chat.html
 ```
 
 By default this writes `data.json` and `assets.json` next to `chat.html`.
@@ -32,7 +32,7 @@ By default this writes `data.json` and `assets.json` next to `chat.html`.
 Options:
 
 ```bash
-python extract_chat_export.py /path/to/chat.html   --data-out /somewhere/data.json   --assets-out /somewhere/assets.json   --overwrite   --chunk-size 1048576   --trailing-buffer 8192
+python chat_export_to_json.py /path/to/chat.html   --data-out /somewhere/data.json   --assets-out /somewhere/assets.json   --overwrite   --chunk-size 1048576   --trailing-buffer 8192
 ```
 
 Notes:
