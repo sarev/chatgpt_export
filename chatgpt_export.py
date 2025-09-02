@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# Example use cases for the 'chatgpt_export' module.
+# 'chatgpt_export' module, providing methods to navigate your exported ChatGPT history.
 #
 # Copyright 2025 7th software Ltd.
 #
