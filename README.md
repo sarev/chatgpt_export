@@ -1,6 +1,8 @@
 # chatgpt_export
 Toolset to extract and work with your ChatGPT chat history.
 
+![Illustration](./Illustration.png)
+
 ## Contents
 - `chat_export_to_json.py` — streaming extractor that pulls `jsonData` and `assetsJson` out of `chat.html` into `data.json` and `assets.json`.
 - `chatgpt_export.py` — library and CLI to list conversations, enumerate messages, and search text.

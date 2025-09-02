@@ -2,7 +2,7 @@
 #
 # 'chatgpt_export' module, providing methods to navigate your exported ChatGPT history.
 #
-# Copyright 2025 7th software Ltd.
+# Copyright (c) 2025, 7th software Ltd.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

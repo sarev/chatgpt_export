@@ -1,3 +1,7 @@
 chat.html
 data.json
 assets.json
+.venv
+__pycache__
+experiments
+llm_profiler

@@ -9,7 +9,7 @@
 # including "=", skips immediate spaces/tabs, and drops the trailing ";" (plus any
 # trailing spaces or CR) before the newline. Handles files without a final newline.
 #
-# Copyright 2025 7th software Ltd.
+# Copyright (c) 2025, 7th software Ltd.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
